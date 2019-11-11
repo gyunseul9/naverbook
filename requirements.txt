@@ -1,0 +1,9 @@
+beautifulsoup4
+PyMySQL
+requests
+slacker
+urllib3
+selenium
+Pillow
+facebook-sdk
+requests_toolbelt
