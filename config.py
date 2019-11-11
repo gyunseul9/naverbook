@@ -24,18 +24,18 @@ class Configuration:
   def get_configuration(choose):
 
     if(choose == 'local'):
-      connect_value = dict(host='',
-        user='',
-        password='',
-        database='',
+      connect_value = dict(host='HOSTNAME',
+        user='USERID',
+        password='PASSWORD',
+        database='DATABASE',
         port=3307,
         charset='utf8')
       
     elif(choose == 'ubuntu'):
       connect_value = dict(host='',
-        user='',
-        password='',
-        database='',
+        user='USERID',
+        password='PASSWORD',
+        database='DATABASE',
         port=3307,
         charset='utf8')
 
