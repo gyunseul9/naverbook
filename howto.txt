@@ -1,3 +1,11 @@
+git config "gyunseul9"
+git config "gyunseul9@gmail.com"
+git init
+git checkout -b refactoring
+git add .
+git commit -am "init"
+git push --set-upstream origin refactoring
+
 #install ffmpeg
 
 $ sudo add-apt-repository ppa:jonathonf/ffmpeg-4
