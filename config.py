@@ -24,18 +24,18 @@ class Configuration:
   def get_configuration(choose):
 
     if(choose == 'local'):
-      connect_value = dict(host='gyunseul9.c884kf3zxudy.ap-northeast-2.rds.amazonaws.com',
-        user='gyunseul9',
-        password='19740806',
-        database='gyunseul9',
+      connect_value = dict(host='',
+        user='',
+        password='',
+        database='',
         port=3307,
         charset='utf8')
       
     elif(choose == 'ubuntu'):
-      connect_value = dict(host='gyunseul9.c884kf3zxudy.ap-northeast-2.rds.amazonaws.com',
-        user='gyunseul9',
-        password='19740806',
-        database='gyunseul9',
+      connect_value = dict(host='',
+        user='',
+        password='',
+        database='',
         port=3307,
         charset='utf8')
 

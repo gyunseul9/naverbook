@@ -52,9 +52,9 @@ class Postfacebook:
 
 			now = time.localtime()
 
-			pageid = '218294265461134'
+			pageid = ''
 
-			token = 'EAAi5fGT2pnYBAF90gJmD1NM9wfOZBz0hpl03Of1or1OFpnmps5yffDB5Fw67a36w8VjIA94mieZB8KUTqr8OZAFHh95VZBXXY83qWgtokCDyYfTMAAzeGXlZBKXtU9zk8jKwnPJC8FsRpn1sgI1pItZAZAitUN0geWLPwTX2SllyQs3IlS8pPdq'
+			token = ''
 
 			uri = '/mnt/sda1/refactoring/books/images/books_{}{}{}.mp4'.format(now.tm_year,now.tm_mon,now.tm_mday)
 			
