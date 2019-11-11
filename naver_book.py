@@ -40,7 +40,7 @@ class Naverbook:
 		attachments_dict['text'] = text
 		attachments = [attachments_dict]
 
-		token = 'xoxp-307523392438-306017480432-708790405142-61819211c918758e71fa9cca342f7908'
+		token = 'TOKEN'
 		slack = Slacker(token)
 		#slack.chat.post_message(channel, message)
 		slack.chat.post_message(channel=channel, text=None, attachments=attachments, as_user=True)
